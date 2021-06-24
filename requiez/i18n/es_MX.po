@@ -1,0 +1,732 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* requiez
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-17 14:20+0000\n"
+"PO-Revision-Date: 2021-05-17 14:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.report_invoice_document_requiez
+msgid "&amp;nbsp;<span>on</span>"
+msgstr "&amp;nbsp;<span>en</span>"
+
+#. module: requiez
+#: model:ir.actions.report,print_report_name:requiez.print_product_label_mrp
+#: model:ir.actions.report,print_report_name:requiez.print_product_label_picking
+msgid "'Product Label'"
+msgstr "Etiqueta de producto"
+
+#. module: requiez
+#: model:ir.actions.report,print_report_name:requiez.print_shipping_label
+msgid "'Shipping Label'"
+msgstr "'Etiqueta de envío'"
+
+#. module: requiez
+#: model:ir.actions.report,print_report_name:requiez.print_shipping_order
+msgid "'Shipping Order'"
+msgstr "Orden de envío"
+
+#. module: requiez
+#: model:ir.actions.report,print_report_name:requiez.mrp_drall_report
+msgid "'Work Order Report'"
+msgstr "Reporte order de trabajo"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "+ Incoming Product"
+msgstr "+ Producto entrante"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "+ Product Incomming forecast"
+msgstr "+ Pronóstico de entrada de producto"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "- Outgoing product"
+msgstr "- Producto saliente"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_templates.xml:0
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "- Product compromise"
+msgstr "- Producto comprometido"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+msgid "<span>BOX NUMBER</span>"
+msgstr "<span>NÚMERO DE CAJA</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+msgid "<span>CLIENT REF</span>"
+msgstr "<span>OC CLIENTE</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_order_report_document
+msgid "<span>Customer</span>"
+msgstr "<span>Cliente</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_order_report_document
+msgid "<span>Declared Value</span>"
+msgstr "<span>Valor declarado</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_order_report_document
+msgid "<span>Delivery Address</span>"
+msgstr "<span>Domicilio de Entrega</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_order_report_document
+msgid "<span>Destination</span>"
+msgstr "<span>Destino</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_order_report_document
+msgid "<span>No. of Boxes</span>"
+msgstr "<span>Número de cajas</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+msgid "<span>Recipient</span>"
+msgstr "<span>Destinatario</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+msgid "<span>SALE ORDER</span>"
+msgstr "<span>NO. ORDEN</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_order_report_document
+msgid "<span>Sale Order</span>"
+msgstr "<span>Pedido de venta</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+msgid "<span>TOTAL OF BOX IN GUIA</span>"
+msgstr "<span>TOTAL DE CAJA EN GUÍA</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_order_report_document
+msgid "<span>Transport</span>"
+msgstr "<span>Transporte</span>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_order_report_document
+msgid ""
+"<strong>\n"
+"                      <span>S/V</span>\n"
+"                    </strong>"
+msgstr ""
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.report_sale_order_document_date
+msgid "<strong>Customer Purchase Order:</strong>"
+msgstr "<strong>Orden de Compra Cliente:</strong>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.report_sale_order_document_date
+msgid "<strong>Promised Date of Delivery:</strong>"
+msgstr "<strong>Fecha Promesa de Entrega:</strong>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.report_sale_order_document_date
+msgid "<strong>Shipping Address:</strong>"
+msgstr "<strong>Dirección de Envío:</strong>"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "<strong>WORK ORDER</strong>"
+msgstr "<strong>ORDEN DE TRABAJO</strong>"
+
+#. module: requiez
+#: code:addons/requiez/models/sale.py:0
+#, python-format
+msgid ""
+"AT THE MOMENT, IT'S NOT AUTHORIZE A CREDIT SALE. THE CLIENT HAS EXPIRED "
+"BALANCE ON PREVIOUS INVOICES!. FOR MORE INFORMATION CHECK INVOICING!"
+msgstr ""
+"POR EL MOMENTO, NO SE AUTORIZA UNA VENTA A CRÉDITO. EL CRÉDITO DEL CLIENTE HA EXPIRADO "
+"¡SALDO DE FACTURAS ANTERIORES !. PARA MÁS INFORMACIÓN CONSULTE FACTURACIÓN!"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "ATP"
+msgstr ""
+
+#. module: requiez
+#: model:res.groups,name:requiez.account_control_group
+msgid "Account Control"
+msgstr "Control de cuenta"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.view_picking_account_moves_form_requiez
+msgid "Account Moves"
+msgstr "Movimientos contables"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.product_template_archive_form_view
+#: model_terms:ir.ui.view,arch_db:requiez.view_partner_requiez_form
+msgid "Active"
+msgstr "Activo"
+
+#. module: requiez
+#: model:res.groups,name:requiez.group_archive
+msgid "Archive Product/Partner"
+msgstr "Archivar Producto / Cliente"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/js/client_action.js:0
+#, python-format
+msgid "Are you sure you want to delete this record ?"
+msgstr "¿Está seguro de que desea eliminar este registro?"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_stock_picking__box
+msgid "Boxes"
+msgstr "Caja(s)"
+
+#. module: requiez
+#: model:ir.model.fields,help:requiez.field_stock_picking__box
+msgid "Boxes number."
+msgstr "Número de caja(s)."
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.view_partner_requiez_form
+msgid "Business Name"
+msgstr "Nombre comercial"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+msgid "C.P"
+msgstr "C.P."
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.upload_forecast_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: requiez
+#: model:ir.model.fields,help:requiez.field_stock_location__default_location
+msgid ""
+"Check this box to allow the use                                       of "
+"this location as the default                                       location."
+msgstr ""
+"Marque ésta casilla para permitir el uso de ésta ubicación como la ubicación"
+" predeterminada."
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.upload_forecast_view
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_res_partner__credit_avaiable
+#: model:ir.model.fields,field_description:requiez.field_res_users__credit_avaiable
+msgid "Credit Avaiable"
+msgstr "Crédito disponible"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_res_partner__credit_expired
+#: model:ir.model.fields,field_description:requiez.field_res_users__credit_expired
+msgid "Credit Expired"
+msgstr "Crédito expirado"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_res_partner__credit_ignore
+#: model:ir.model.fields,field_description:requiez.field_res_users__credit_ignore
+msgid "Credit Ignore"
+msgstr "Permitir sobre pasar límite de crédito"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_res_partner__credit_limit
+#: model:ir.model.fields,field_description:requiez.field_res_users__credit_limit
+msgid "Credit Limit"
+msgstr "Crédito límite"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_res_partner__credit_used
+#: model:ir.model.fields,field_description:requiez.field_res_users__credit_used
+msgid "Credit Used"
+msgstr "Crédito utilizado"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Current Date"
+msgstr "Fecha Vigente"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_sale_order__client_order_ref
+msgid "Customer Reference"
+msgstr "Referencia de cliente"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_sale_order__date_promised
+msgid "Date promised"
+msgstr "Fecha prometida"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_account_move__display_name
+#: model:ir.model.fields,field_description:requiez.field_mrp_production__display_name
+#: model:ir.model.fields,field_description:requiez.field_mrp_production_schedule__display_name
+#: model:ir.model.fields,field_description:requiez.field_procurement_group__display_name
+#: model:ir.model.fields,field_description:requiez.field_product_product__display_name
+#: model:ir.model.fields,field_description:requiez.field_report_requiez_print_prod_label_mrp__display_name
+#: model:ir.model.fields,field_description:requiez.field_report_requiez_print_prod_label_picking__display_name
+#: model:ir.model.fields,field_description:requiez.field_res_partner__display_name
+#: model:ir.model.fields,field_description:requiez.field_sale_order__display_name
+#: model:ir.model.fields,field_description:requiez.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:requiez.field_stock_move__display_name
+#: model:ir.model.fields,field_description:requiez.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:requiez.field_stock_warehouse_orderpoint__display_name
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__display_name
+msgid "Display Name"
+msgstr "Nombre desplegado"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_res_partner__expired_ignore
+#: model:ir.model.fields,field_description:requiez.field_res_users__expired_ignore
+msgid "Expired Ignore"
+msgstr "Permitir vender a crédito con saldo vencido"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "Export"
+msgstr "Exportar"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__data_file
+msgid "File"
+msgstr "Archivo"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__name
+msgid "File Name"
+msgstr "Nombre del Archivo"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "Forecasted"
+msgstr "Pronosticada"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "Forecasted Stock"
+msgstr "Inventario Pronosticado"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_res_partner__grace_days
+#: model:ir.model.fields,field_description:requiez.field_res_users__grace_days
+msgid "Grace Days"
+msgstr "Días de gracia"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_account_move__id
+#: model:ir.model.fields,field_description:requiez.field_mrp_production__id
+#: model:ir.model.fields,field_description:requiez.field_mrp_production_schedule__id
+#: model:ir.model.fields,field_description:requiez.field_procurement_group__id
+#: model:ir.model.fields,field_description:requiez.field_product_product__id
+#: model:ir.model.fields,field_description:requiez.field_report_requiez_print_prod_label_mrp__id
+#: model:ir.model.fields,field_description:requiez.field_report_requiez_print_prod_label_picking__id
+#: model:ir.model.fields,field_description:requiez.field_res_partner__id
+#: model:ir.model.fields,field_description:requiez.field_sale_order__id
+#: model:ir.model.fields,field_description:requiez.field_sale_order_line__id
+#: model:ir.model.fields,field_description:requiez.field_stock_move__id
+#: model:ir.model.fields,field_description:requiez.field_stock_picking__id
+#: model:ir.model.fields,field_description:requiez.field_stock_warehouse_orderpoint__id
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_stock_location
+msgid "Inventory Locations"
+msgstr "Ubicaciones de inventario"
+
+#. module: requiez
+#: model:ir.ui.menu,name:requiez.menu_report_product_payment_all
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: requiez
+#: model:res.groups,name:requiez.account_invoice_cancel
+msgid "Invoice Cancel"
+msgstr "Cancelar factura"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_stock_location__default_location
+msgid "Is the default location?"
+msgstr "Es la ubicación predeterminada?"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_stock_picking__account_moves
+msgid "Jornal Entry"
+msgstr "Diario de entrada"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_account_move____last_update
+#: model:ir.model.fields,field_description:requiez.field_mrp_production____last_update
+#: model:ir.model.fields,field_description:requiez.field_mrp_production_schedule____last_update
+#: model:ir.model.fields,field_description:requiez.field_procurement_group____last_update
+#: model:ir.model.fields,field_description:requiez.field_product_product____last_update
+#: model:ir.model.fields,field_description:requiez.field_report_requiez_print_prod_label_mrp____last_update
+#: model:ir.model.fields,field_description:requiez.field_report_requiez_print_prod_label_picking____last_update
+#: model:ir.model.fields,field_description:requiez.field_res_partner____last_update
+#: model:ir.model.fields,field_description:requiez.field_sale_order____last_update
+#: model:ir.model.fields,field_description:requiez.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:requiez.field_stock_move____last_update
+#: model:ir.model.fields,field_description:requiez.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:requiez.field_stock_warehouse_orderpoint____last_update
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificacion realizada"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_stock_warehouse_orderpoint__mps
+msgid "MPS"
+msgstr ""
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/js/client_action.js:0
+#, python-format
+msgid "Master Production Schedule"
+msgstr "Programa maestro de producción"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_stock_warehouse_orderpoint
+msgid "Minimum Inventory Rule"
+msgstr "Regla de inventario mínimo"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Observation"
+msgstr "Observación"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_mrp_production__order_classification
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Order"
+msgstr "Orden"
+
+#. module: requiez
+#: model:ir.actions.act_window,name:requiez.partner_credit_action_tree
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: requiez
+#: model:ir.ui.menu,name:requiez.menu_partner_credit
+msgid "Partner credit"
+msgstr "Crédito de clientes"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_account_bank_statement_line__date_payment
+#: model:ir.model.fields,field_description:requiez.field_account_move__date_payment
+#: model:ir.model.fields,field_description:requiez.field_account_payment__date_payment
+msgid "Payment Date"
+msgstr "Fecha de pago"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_account_bank_statement_line__prioritized
+#: model:ir.model.fields,field_description:requiez.field_account_move__prioritized
+#: model:ir.model.fields,field_description:requiez.field_account_payment__prioritized
+msgid "Prioritized"
+msgstr "Priorizado"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Priority"
+msgstr "Prioridad"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_procurement_group
+msgid "Procurement Group"
+msgstr "Grupo de abastecimiento"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_product_product
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Product"
+msgstr "Producto"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Product Code"
+msgstr "Código del Producto"
+
+#. module: requiez
+#: model:ir.actions.report,name:requiez.print_product_label_mrp
+#: model:ir.actions.report,name:requiez.print_product_label_picking
+msgid "Product Label"
+msgstr "Etiqueta de Productos"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_mrp_production
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Production Order"
+msgstr "Orden de Producción"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "QR"
+msgstr ""
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.mrp_report_document
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid ""
+"Quantity predicted to be available for sale at the end of the period (= to "
+"replenish - actual demand)."
+msgstr ""
+
+#. module: requiez
+#: model:res.groups,name:requiez.group_confirm_order
+msgid "Responsible Confirm Order"
+msgstr "Responsable de Confirmar Orden"
+
+#. module: requiez
+#: model:res.groups,name:requiez.group_prioritize
+msgid "Responsible for prioritize invoice"
+msgstr "Responsable de priorizar factura"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_res_partner__sale_order_ignore
+#: model:ir.model.fields,field_description:requiez.field_res_users__sale_order_ignore
+msgid "Sale Order Ignore"
+msgstr "Ignorar ventas sin facturar"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_sale_order__user_id
+msgid "Salesperson"
+msgstr "Comercial"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_mrp_production_schedule
+msgid "Schedule the production of Product in a warehouse"
+msgstr "Programe la producción del Producto en un almacén."
+
+#. module: requiez
+#: model:ir.actions.report,name:requiez.print_shipping_label
+msgid "Shipping Label"
+msgstr "Etiqueta de Embarque"
+
+#. module: requiez
+#: model:ir.actions.report,name:requiez.print_shipping_order
+msgid "Shipping Order"
+msgstr "Orden de Embarque"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_upload_forecast__state
+msgid "State"
+msgstr "Estado"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de existencias"
+
+#. module: requiez
+#: model:ir.model.fields,field_description:requiez.field_stock_picking__stock_move_ids
+msgid "Stock Moves"
+msgstr "Movimientos de stock"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.shipping_label_report_document
+msgid "TEL."
+msgstr "Tel."
+
+#. module: requiez
+#: code:addons/requiez/models/sale.py:0
+#, python-format
+msgid ""
+"THE CLIENT DOESN'T HAVE ENOUGH CREDIT FOR THE SALE!, FOR MORE INFORMATION "
+"CHECK INVOICING!"
+msgstr ""
+"¡EL CLIENTE NO TIENE SUFICIENTE CRÉDITO PARA LA VENTA !, PARA MÁS INFORMACIÓN"
+"¡CONSULTAR FACTURACIÓN!"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "The forecasted quantity in stock at the end of the period."
+msgstr "Cantidad prevista en stock al final del período."
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "The incoming product in Purchase Orders."
+msgstr "Producto entrante en órdenes de compra."
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "The incomming forecast product."
+msgstr ""
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid "The outgoing product."
+msgstr "Producto saliente"
+
+#. module: requiez
+#. openerp-web
+#: code:addons/requiez/static/src/xml/qweb_templates.xml:0
+#: code:addons/requiez/static/src/xml/qweb_teplates.xml:0
+#, python-format
+msgid ""
+"The product compromise to fulfill the needs in components of the "
+"Manufacturing Orders."
+msgstr ""
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.upload_forecast_view
+msgid ""
+"This wizard lets upload a file. First column: Product name,\n"
+"                    Second column: date. Third column: quantity"
+msgstr ""
+"Este wizard le permite cargar el archivo. La primera columna: Nombre del "
+"producto. Segunda columna: Fecha. Tercera Columna: Cantidad"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: requiez
+#: model:ir.actions.act_window,name:requiez.action_upload_forecast
+#: model:ir.ui.menu,name:requiez.mrp_upload_forecast
+#: model_terms:ir.ui.view,arch_db:requiez.upload_forecast_view
+msgid "Upload Forecast"
+msgstr "Cargar demanda prevista"
+
+#. module: requiez
+#: model:ir.actions.report,name:requiez.mrp_drall_report
+msgid "Work Order Report"
+msgstr "Reporte Orden de Trabajo"
+
+#. module: requiez
+#: model:ir.model.fields.selection,name:requiez.selection__upload_forecast__state__choose
+msgid "choose"
+msgstr "Selecciona"
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.view_partner_credit_form
+msgid "credit control"
+msgstr "Control de crédito"
+
+#. module: requiez
+#: model:ir.model.fields.selection,name:requiez.selection__upload_forecast__state__get
+msgid "get"
+msgstr "Obtener"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_mrp_mps_location
+msgid "mrp.mps.location"
+msgstr ""
+
+#. module: requiez
+#: model_terms:ir.ui.view,arch_db:requiez.upload_forecast_view
+msgid "or"
+msgstr "o"
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_report_requiez_print_prod_label_mrp
+msgid "report.requiez.print_prod_label_mrp"
+msgstr ""
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_report_requiez_print_prod_label_picking
+msgid "report.requiez.print_prod_label_picking"
+msgstr ""
+
+#. module: requiez
+#: model:ir.model,name:requiez.model_upload_forecast
+msgid "upload.forecast"
+msgstr ""

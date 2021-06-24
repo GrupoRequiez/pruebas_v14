@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="report_product_supply">
+    <t t-call="web.html_container">
+      <t t-call="product_supply.report_product_supply_document" t-lang="user.partner_id.lang"/>
+    </t>
+  </template>
+  <!-- Translatable template -->
+  <template id="report_product_supply_document">
+    <t t-set="docs" t-value="docs.with_context({'lang':user.partner_id.lang})"/>
+    <t t-call="web.external_layout">
+      <div class="page" style="font-size:16px;">
+        <div>
+          <br/>
+          <br/>
+          <h1>Listado de surtido (Materia prima)</h1>
+        </div>
+        <div class="row text-right">
+          <strong>Date of Generation:</strong>
+          <p t-raw="datetime.datetime.today().strftime('%d-%m-%Y %H:%M:%S')"/>
+          <strong>Origin Location: </strong>
+          <span t-esc="data['origin']"/>
+											  
+									  
+        </div>
+        <br/>
+        <!-- <br/> -->
+        <table style="width: 100%" class="table table-condensed">
+          <colgroup>
+             <col span="1" style="width: 10%;"/>
+             <col span="1" style="width: 35%;"/>
+             <col span="1" style="width: 10%;"/>
+             <col span="1" style="width: 25%;"/>
+             <col span="1" style="width: 20%;"/>
+          </colgroup>
+          <thead>
+            <tr height="50">
+              <th style="text-align:center; font-size:15px;">
+                <strong>Internal Reference</strong>
+              </th>
+              <th style="text-align:center; font-size:15px;">
+                <strong>Product</strong>
+              </th>
+              <th style="text-align:center; font-size:15px;">
+                <strong>Quantity</strong>
+              </th>
+              <th style="text-align:center; font-size:15px;">
+                <strong>Lot</strong>
+              </th>
+              <th style="text-align:center; font-size:15px;">
+                <strong>Locations</strong>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <t t-foreach="data['moves']" t-as="brand">
+              <tr>
+                <td t-if="brand != 'NA'" align="left">
+                  <span t-esc="brand"/>
+                </td>
+              </tr>
+              <t t-foreach="data['moves'][brand]" t-as="product">
+                <t t-foreach="data['moves'][brand][product]" t-as="lot">
+                  <t t-set="qty" t-value="data['moves'][brand][product][lot]['qty']"/>
+                  <t t-set="locations" t-value="data['moves'][brand][product][lot]['locations']"/>
+                  <t t-set="obj_lot" t-value="env['stock.production.lot'].browse(int(lot))"/>
+                  <t t-set="move" t-value="env['stock.move.line'].browse(data['moves'][brand][product][lot]['move'])"/>
+                  <tr height="50">
+                    <td style="text-align:left; font-size:12px;">
+                      <span t-esc="move.product_id.default_code"/>
+                    </td>
+                    <td style="text-align:left; font-size:12px;">
+                      <span t-esc="move.product_id.name"/>
+                    </td>
+                    <td style="text-align:left; font-size:12px;">
+                      <span t-esc="qty"/>
+                    </td>
+                    <td style="text-align:left; font-size:12px;">
+                      <span t-esc="obj_lot.name"/>
+                    </td>
+                    <td style="text-align:left; font-size:12px;">
+                      <span t-esc="locations"/>
+                    </td>
+                  </tr>
+                </t>
+              </t>
+            </t>
+          </tbody>
+        </table>
+      </div>
+    </t>
+  </template>
+</odoo>

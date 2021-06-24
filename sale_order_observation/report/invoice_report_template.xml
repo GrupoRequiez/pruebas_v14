@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="report_invoice_document_date" inherit_id="account.report_invoice_document">
+        <xpath expr="//th[@name='th_description']" position="attributes">
+            <attribute name="class">text-center</attribute>
+        </xpath>
+        <xpath expr="//th[@name='th_quantity']" position="attributes">
+            <attribute name="class">text-center</attribute>
+        </xpath>
+        <xpath expr="//th[@name='th_priceunit']" position="attributes">
+            <attribute name="class">text-center</attribute>
+        </xpath>
+        <xpath expr="//th[@name='th_price_unit']" position="attributes">
+            <attribute name="class">text-center;font-weight:normal</attribute>
+        </xpath>
+        <xpath expr="//th[@name='th_taxes']" position="attributes">
+            <attribute name="class">text-center</attribute>
+        </xpath>
+        <xpath expr="//th[@name='th_subtotal']" position="attributes">
+            <attribute name="class">text-center</attribute>
+        </xpath>
+        <xpath expr="//t/div/table/tbody/t/tr/t/td[@name='account_invoice_line_name']/span" position="attributes">
+            <attribute name="t-field">line.product_id.name</attribute>
+        </xpath>
+        <xpath expr="//t/div/h2" position="attributes">
+            <attribute name="style">font-size:28px; font-weight:normal;</attribute>
+        </xpath>
+        <xpath expr="//t/div/table/tbody/t/tr" position="attributes">
+            <attribute name="style">font-size:12px; text-align:center;</attribute>
+        </xpath>
+        <xpath expr="//div[@id='informations']" position="attributes">
+            <attribute name="style">font-size:12px</attribute>
+        </xpath>
+        <xpath expr="//t/div/table/thead/tr/th[1]" position="after">
+            <th style="width:15%;" class="text-center">Prod. Code</th>
+        </xpath>
+        <xpath expr="//t/div/table/tbody/t/tr/t/td[1]" position="after">
+            <td class="text-center">
+              <span t-field="line.product_id.default_code"/>
+            </td>
+        </xpath>
+        <xpath expr="//t/div/table/thead/tr/th[3]" position="attributes">
+            <attribute name="style">width:30%;text-align:center;</attribute>
+        </xpath>
+        <xpath expr="//t/div/table/thead/tr/th[3]" position="after">
+          <t t-if="o.move_type == 'out_invoice'" class="text-center">
+              <th >Observation</th>
+          </t>
+        </xpath>
+        <xpath expr="//t/div/table/tbody/t/tr/t/td[3]" position="after">
+          <t t-if="o.move_type == 'out_invoice'" class="text-center">
+            <td style="text-align:center;">
+                <span t-field="line.observation"/>
+            </td>
+          </t>
+        </xpath>
+        <xpath expr="//span[@t-field='o.narration']" position="replace"/>
+
+        <xpath expr="//div[hasclass('clearfix')]" position="after">
+          <BR/>
+            <table class="table table-condensed">
+                <tr>
+                    <td style="width:15%;text-align:center;">
+                        <strong>Pro-form:</strong>
+                        <BR/>
+                        <p t-field="o.invoice_origin"/>
+                    </td>
+                    <td style="width:15%;text-align:center;">
+                        <strong>Customer Reference:</strong>
+                        <BR/>
+                        <p t-field="o.name"/>
+                    </td>
+                </tr>
+            </table>
+        </xpath>
+        <xpath expr="//span[@t-field='o.partner_id.vat']" position="after">
+            <BR/>
+															 
+        </xpath>
+    </template>
+
+</odoo>
