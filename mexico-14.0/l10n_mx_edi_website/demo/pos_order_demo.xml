@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="account.account.type" id="account_type_other">
+        <field name="name">Other</field>
+        <field name="internal_group">expense</field>
+    </record>
+    <record id="pos_website_account_account" model="account.account">
+        <field name="name">Generic Sale</field>
+        <field name="code">GSALE</field>
+        <field name="user_type_id" ref="account_type_other"/>
+    </record>
+    <record id="pos_account_invoice" model="account.move">
+       <field name="partner_id" ref="base.res_partner_12"/>
+    </record>
+    <record id="pos_invoice_line_01" model="account.move.line">
+        <field name="name">Chela Chimay</field>
+        <field name="product_id" ref="point_of_sale.led_lamp"/>
+        <field name="price_unit">750</field>
+        <field name="move_id" ref="pos_account_invoice"/>
+        <field name="account_id" ref="pos_website_account_account"/>
+    </record>
+    <record id="pos_account_invoice_pdf_signed" model="ir.attachment">
+        <field name="name">AAA010101AAA.pdf</field>
+        <field name="datas" file="l10n_mx_edi_website/demo/AAA010101AAA.pdf" type="base64"/>
+        <field name="res_model">account.move</field>
+        <field name="res_id" ref="pos_account_invoice"/>
+    </record>
+<!-- POS -->
+    <record id="pos_config_main_demo" model="pos.config">
+        <field name="name">Main Demo Pos</field>
+        <field name="barcode_nomenclature_id" ref="barcodes.default_barcode_nomenclature"/>
+    </record>
+    <record id="product.list0" model="product.pricelist">
+        <field name="currency_id" ref="base.MXN"/>
+    </record>
+</odoo>

@@ -1,0 +1,68 @@
+[submodule "product_classification"]
+	path = product_classification
+	url = git@github.com:GustavoRequiez/product_classification.git
+	branch = 14.0
+[submodule "incoming_products_kardex"]
+	path = incoming_products_kardex
+	url = git@github.com:GustavoRequiez/incoming_products_kardex.git
+	branch = 14.0
+[submodule "revenue_history_projection"]
+	path = revenue_history_projection
+	url = git@github.com:GustavoRequiez/revenue_history_projection.git
+	branch = 14.0
+[submodule "measurement_processes_production"]
+	path = measurement_processes_production
+	url = git@github.com:GustavoRequiez/measurement_processes_production.git
+	branch = 14.0
+[submodule "value_merchandise_sent"]
+	path = value_merchandise_sent
+	url = git@github.com:GustavoRequiez/value_merchandise_sent.git
+	branch = 14.0
+[submodule "product_brand"]
+	path = product_brand
+	url = git@github.com:GrupoRequiez/product_brand.git
+	branch = 14.0
+[submodule "mass_editing"]
+	path = mass_editing
+	url = git@github.com:GrupoRequiez/mass_editing.git
+	branch = 14.0
+[submodule "mrp_sale_info"]
+	path = mrp_sale_info
+	url = git@github.com:GrupoRequiez/mrp_sale_info.git
+	branch = 14.0
+[submodule "product_supply"]
+	path = product_supply
+	url = git@github.com:GrupoRequiez/product_supply.git
+	branch = 14.0
+[submodule "sale_brand"]
+	path = sale_brand
+	url = git@github.com:GrupoRequiez/sale_brand.git
+	branch = 14.0
+[submodule "product_compromise"]
+	path = product_compromise
+	url = git@github.com:GrupoRequiez/product_compromise.git
+	branch = 14.0
+[submodule "mrp_ii"]
+	path = mrp_ii
+	url = git@github.com:GrupoRequiez/mrp_ii.git
+	branch = 14.0
+[submodule "sale_commission"]
+	path = sale_commission
+	url = git@github.com:GrupoRequiez/sale_commission.git
+	branch = 14.0
+[submodule "sale_order_observation"]
+	path = sale_order_observation
+	url = git@github.com:GrupoRequiez/sale_order_observation.git
+	branch = 14.0
+[submodule "requiez"]
+	path = requiez
+	url = git@github.com:GrupoRequiez/requiez.git
+	branch = 14.0_rm_hooks_mig
+[submodule "web_notify"]
+	path = web_notify
+	url = git@github.com:GrupoRequiez/web_notify.git
+	branch = 14.0
+[submodule "stock_no_negative"]
+	path = stock_no_negative
+	url = git@github.com:GrupoRequiez/stock_no_negative.git
+	branch = 14.0

@@ -1,0 +1,2 @@
+json2html==1.2.1
+pdfminer
